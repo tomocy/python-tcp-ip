@@ -8,7 +8,7 @@ server.bind((HOST, PORT))
 server.listen(0)
 
 client, addr = server.accept()
-client.sendall(b"Hello, world\n")
+client.sendall(b"Hello, world in ipv4\n")
 
 client.close()
 server.close()
